@@ -1,0 +1,58 @@
+body,html {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  height: 100vh;
+  background-image: url("linen.png"); /* Background pattern from Subtle Patterns */
+  background-size: cover;
+  font-size: 30px;
+
+
+}
+  h1 {
+    color: #034F84;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .keys {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex: 2;
+  min-height: 100px;
+  padding: 0px 29px;
+  }
+  
+  .key { 
+  border: 3px solid #034F84;
+  border-radius: 0.4rem;
+  margin: 10px;
+  font-size: 1.5rem;
+  padding: 5px 4px;
+  transition: all 0.1s ease-in-out;
+  width: 100px;
+  text-align: center;
+  color: #034F84;
+  background: #98DDDE;
+  text-shadow: 0 1px black;
+    
+  } 
+
+kbd {
+	display: block;
+	font-size: 50px;
+}
+
+.sound {
+  font-size: 21px;
+  text-transform: uppercase;
+  
+}
+.playing {
+    transform: scale(1.4);
+    border-color: #034F84;
+    box-shadow: 0 0 1rem #034F84;
+  
+  
+}
