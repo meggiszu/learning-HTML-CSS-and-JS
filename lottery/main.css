@@ -1,0 +1,33 @@
+html {
+  font-family: "Oswald", Arial, sans-serif;
+  background-color: #f6f7ea;
+}
+      
+button {
+  display: block;
+  margin:  80px auto;
+  background-color: #fff;
+  border: 5px solid #1e7a90;
+  padding: 10px 20px;
+  font-size: 25px;
+  color: #1e7a90;
+  transition: .5s;
+  }
+
+button:hover {
+  background: #1e7a90;
+  color: white;
+}
+
+div {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #1e7a90;
+  margin: 10px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
