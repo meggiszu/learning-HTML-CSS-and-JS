@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
 const result = [];
 
 const losowanie = function() {
-  const box = document.getElementById('container');
+  const container = document.getElementById('container');
 
   if (result.length === 10) return;
 
@@ -24,7 +24,7 @@ const losowanie = function() {
 
   result.push(wynikLosowania);
   
-  box.appendChild(div);
+  container.appendChild(div);
 }
 const button = document.querySelector("button");
 

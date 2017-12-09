@@ -2,6 +2,10 @@ html {
   font-family: "Oswald", Arial, sans-serif;
   background-color: #f6f7ea;
 }
+
+body {
+  margin: 0 150px;
+}
       
 button {
   display: block;
@@ -21,7 +25,12 @@ button:hover {
 
 
 #container {
-  width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
 
 }
 
