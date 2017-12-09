@@ -19,7 +19,13 @@ button:hover {
   color: white;
 }
 
-div {
+
+#container {
+  width: 300px;
+
+}
+
+div.ball {
   float: left;
   width: 60px;
   height: 60px;

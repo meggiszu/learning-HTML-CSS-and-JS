@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
 const result = [];
 
 const losowanie = function() {
-  
+  const box = document.getElementById('container');
+
   if (result.length === 10) return;
 
   const wynikLosowania = Math.floor(Math.random() * 99 + 1);
@@ -16,12 +17,14 @@ const losowanie = function() {
   }
    
   const div = document.createElement('div');
+  div.setAttribute('class', 'ball');
+
 
   div.textContent = wynikLosowania;
 
   result.push(wynikLosowania);
   
-  document.body.appendChild(div);
+  box.appendChild(div);
 }
 const button = document.querySelector("button");
 
