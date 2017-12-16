@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 
-const canvas = document.querySelector('#draw');
+const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-ctx.strokeStyle = '#BADA55';
+
 ctx.lineJoin = 'miter';
 ctx.lineCap = 'round';
 ctx.lineWidth = 50;
