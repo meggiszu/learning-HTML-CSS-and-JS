@@ -1,0 +1,15 @@
+body {
+      height: 100vh;
+      margin: 0;
+    }
+
+/*.container {
+  border: 10px green solid;
+}*/
+    div {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background-color: green;
+      position: absolute;
+    }
