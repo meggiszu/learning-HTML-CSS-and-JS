@@ -1,14 +1,66 @@
 body {
-      height: 100vh;
-      margin: 0;
-    }
+  height: 100vh;
+  margin: 0;
+}
 
-/*.container {
-  border: 10px green solid;
-}*/
-    div {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      position: absolute;
-    }
+div.counting-panel{
+  display: flex;
+  width: 1000px;
+  
+}
+
+.counter {
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+.points-hide1 {
+  background-color: #DC4C46;
+ }
+
+.points-hide2 {
+  background-color: #672E3B;
+}
+
+.points-hide3 {
+  background-color: #898E8C;
+}
+
+.points-hide4 {
+  background-color: #4F84C4;
+}
+
+.points-hide5 {
+  background-color: #005960;
+}
+
+.points-hide6 {
+  background-color: #9C9A40;
+}
+
+div.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+span {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+#paint {
+  display: inline-flex;
+  width: 1000px;
+  height: 700px;
+}
