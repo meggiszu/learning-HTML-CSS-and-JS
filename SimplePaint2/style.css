@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#panel {
+  display: flex;
+  width: 1000px;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black
+}
+
+
+.color_1 {
+  background-color: #000000;
+ }
+
+.color_2 {
+  background-color: #672E3B;
+}
+
+.color_3 {
+  background-color: #898E8C;
+}
+
+.color_4 {
+  background-color: #DC4C46;
+ }
+
+.color_5 {
+  background-color: #ffffff;
+ }
+
+.points-hide4 {
+  background-color: #4F84C4;
+}
+
+.points-hide5 {
+  background-color: #005960;
+}
+
+.points-hide6 {
+  background-color: #9C9A40;
+}
+
+div.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+
+
+#paint {
+  display: inline-flex;
+  width: 1000px;
+  height: 700px;
+}
