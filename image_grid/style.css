@@ -1,0 +1,41 @@
+
+.container > div {
+    display: flex;
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html, body {
+    background-color: #f9f9e5;
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 150px;
+    grid-auto-flow: dense;
+    
+}
+
+.horizontal {
+    grid-column: span 3 ;
+}
+
+.horizontalSmall {
+    grid-column: span 2;
+}
+
+.vertical {
+    grid-row: span 2;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2 ;
+}
