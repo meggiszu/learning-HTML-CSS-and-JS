@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 5px solid grey;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 0px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.squares {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.one, .two, .three, .four, .five, .six, .seven,
+.eight, .nine {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+
+.one {
+  background: #92B558;
+}
+
+.two{
+ background: #DC4C46;
+}
+
+.three {
+  background: #672E3B;
+}
+.four {
+	background: #2c3756;
+}
+
+.five {
+	background: #a6a4aa;
+}
+
+.six {
+ background: #005960;
+}
+
+.seven {
+  background:  #9C9A40;
+}
+
+.eight {
+   background: #006699;
+}
+
+.nine {
+   background: #FFCC00;
+}
+
+.circle {
+  width: 90%;
+  height: 90%;
+  background: #FFF;
+  opacity: 0.4;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+}
+
+#diamond {
+  width: 0px;
+  height: 0px;
+  border: 50px solid transparent;
+  position: relative;
+  top: -50px;
+  opacity: 0.4;
+}
+
+#diamond:after {
+	content: '';
+	position: absolute;
+	left: -50px;
+	top: 50px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+  border-top-color: #f0efef;
+}
+
